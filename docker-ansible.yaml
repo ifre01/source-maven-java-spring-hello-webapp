@@ -1,6 +1,6 @@
 ---
 - name: Deploy Tomcat Container
-  host: localhost
+  hosts: localhost
   tasks:
     - name: create container
       docker_container: 
