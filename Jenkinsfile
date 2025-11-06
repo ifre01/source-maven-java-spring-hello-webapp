@@ -32,7 +32,7 @@ pipeline {
         label 'controller'
       }
       steps {
-        sh ansiblePlaybook(playbook: 'docker-ansible.yaml') 
+        ansiblePlaybook(playbook: 'docker-ansible.yaml') 
       }
 
     }
